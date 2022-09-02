@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+}
+
+img {
+    width: 300px;
+}
+
+section {
+    border-right: 4px solid rgb(39, 117, 190);
+    padding: 0 20px;
+}
+
+mark {
+    padding: 4px;
+    background-color: aquamarine;
+}
+
+small {
+    color: rgb(8, 123, 161);
+    padding: 4px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+audio {
+    width: 900px;
+}
+
+button {
+    padding: 8px;
+    width: 120px;
+    background-color: rgb(41, 136, 232);
+    color: white;
+    border-radius: 18px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.grupo {
+    padding: 8px;
+}
+
+form {
+    background-color: rgb(219, 217, 217);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.contacto, .formulario {
+    border: none;
+}

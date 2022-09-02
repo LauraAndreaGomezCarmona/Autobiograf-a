@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobiografía</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <audio src="./assets/Audio/Dancin.mp3" autoplay controls></audio>
+    <h1>Autobiografía</h1>
+    <h2>Laura Andrea Gómez Carmona</h2>
+    <main>
+        <section>
+            <h3>Origenes:</h3>
+            <p><mark>Hola!</mark> Mi nombre es Laura Andrea Gómez Carmona, nací el 31 de Enero de 1996. En Medellín,
+                Colombia en la clínica León XIII. Mis padres son <strong><em>María Soledad Carmona Marín</em></strong>,
+                quien es <u>Contadora</u>y <strong><em>Abdón Tiberio Gómez Zapata</em></strong> quien es <u>tecnólogo en electrónica.</u>     
+                Un año más tarde nació mi hermana <strong><em>Alejandra Gómez Carmona</em></strong> quien ahora es
+                <u>bióloga</u>
+            </p>
+            <small>A continuación puedes ver una imagen de mi familia</small>
+            <hr>
+            <br>
+            <img src="./assets/Imágenes/Familia.jpg" alt="Foto Familia" />
+        </section>
+
+        <section>
+            <h3>Estudios:</h3>
+            <p>Termine mis estudios de bachillerato en el colegio de la Universidad Pontificia Bolivariana, y en el año
+                2013 inicie la carrera de ingeniería Aeronáutica.
+                En el año 2019 me gradué como ingeniera Aeronáutica, sin embargo debido a que no habían muchas
+                oportunidades en está área, decidí estudiar <strong><em>Desarrollo Web</em></strong> en el año 2020. Afortunadamente, en está área
+                surgió una gran oportunidad laboral en la empresa <strong><em>Globant</em></strong> y actualmente trabajo en ella como
+                desarrolladora web UI junior.</p>
+            <small>A continuación puedes ver una imagen de mi graduación</small>
+            <hr>
+            <br>
+            <img src="./assets/Imágenes/graduación.jpg" alt="Foto Graduación" />
+        </section>
+
+        <section>
+            <h3>Sobre mí:</h3>
+            <p>Me considero una persona responsable, creativa, alegre, repetuosa y con habilidades para trabajar en
+                equipo</p>
+            <p>Mis actividades favoritas son:</p>
+
+            <ul>
+                <li>Escuchar música</li>
+                <li>Salir a caminar con mi mascota</li>
+                <li>Salir con mis amigos</li>
+                <li>Ver series y películas</li>
+            </ul>
+            <div>
+                <hr>
+                <section class="contacto">
+                    <h1>Contactame</h1>
+                    <small>Si deseas contactarme por favor llena el siguiente formulario, <mark>gracias!</mark></small>
+                </section>
+                <hr>
+                <br>
+                <section class="formulario">
+                    <form name="formulario" action="" method="GET">
+                        <div class="grupo">
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+                        </div>
+                        <div class="grupo">
+                            <label for="apellido">Apellido: </label>
+                            <input type="text" id="apellido" placeholder="Escribe tu apellido">
+                        </div>
+                        <div class="grupo">
+                            <label for="correo">Correo Electrónico: </label>
+                            <input type="email" id="correo" placeholder="Escribe tu correo">
+                        </div>
+                        <div class="grupo">
+                            <label for="edad">Edad: </label>
+                            <input type="number" id="edad">
+                        </div>
+                        <div class="grupo">
+                            <label for="comentario">Escribe tu comentario o pregunta: </label>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aquí... :D"></textarea>
+                        </div>
+                        <div class="grupo">
+                            <label for="fecha">Día disponible para ser contactad@: </label>
+                            <input type="date" id="fecha">
+                        </div>
+                        <div>
+                            <p>Razón para contactarme:</p>
+                            <div>
+                                <input type="radio" id="btn1">
+                                <label for="btn1">Oportunidad laboral</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="btn2">
+                                <label for="btn2">Preguntas</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="btn3">
+                                <label for="btn3">Estudios</label>
+                            </div>    
+                            <div>
+                                <input type="radio" id="btn4">
+                                <label for="btn4">Sugerencias</label>
+                            </div>
+                        </div>
+                        <button>Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+</body>
+</html>
